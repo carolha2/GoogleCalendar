@@ -1,0 +1,8 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+    <a class="btn btn-primary" href="@Url.Action("OauthRedirect", "Home")">Start</a>
+    <a class="btn btn-primary" href="@Url.Action("RefreshToken", "OAuth")">RefreshToken</a>
+    <a class="btn btn-primary" href="@Url.Action("RevokeToken", "OAuth")">RevokeToken</a>
+    <a class="btn btn-primary" href="@Url.Action("ListEvents", "Calendar")">Calendar</a>
